@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
+    color: #333;
   }
   
   header {
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
     padding: 1em;
     text-align: center;
@@ -14,12 +15,15 @@ body {
   
   main {
     padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
   }
   
   #new-post {
     background-color: #fff;
     padding: 1em;
     margin-bottom: 1em;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -38,19 +42,20 @@ body {
   #new-post button {
     padding: 0.5em 1em;
     border: none;
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
     border-radius: 4px;
     cursor: pointer;
   }
   
   #new-post button:hover {
-    background-color: #555;
+    background-color: #45a049;
   }
   
   #posts {
     background-color: #fff;
     padding: 1em;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -63,13 +68,19 @@ body {
     padding: 1em 0;
   }
   
+  .post:last-child {
+    border-bottom: none;
+  }
+  
   .post h3 {
     margin: 0 0 0.5em;
+    color: #4CAF50;
   }
   
   .post p {
     margin: 0;
   }
+  
   
   
   

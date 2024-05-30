@@ -17,10 +17,11 @@ document.getElementById('post-form').addEventListener('submit', function(event) 
   
     document.getElementById('post-list').appendChild(post);
   
-    // Clear the form
+    // Limpiar el formulario
     document.getElementById('post-title').value = '';
     document.getElementById('post-content').value = '';
   });
+  
   
   
   
